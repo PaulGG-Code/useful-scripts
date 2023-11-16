@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+sudo apt-get update
+sudo apt-get install xxd
+
+
 # Create read_handles.sh
 cat <<EOF > read_handles.sh
 #!/bin/bash
